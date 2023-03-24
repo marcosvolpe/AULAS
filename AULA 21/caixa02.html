@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: lightgray;
+}
+header {
+     background-color: aliceblue;
+     padding: 10px;
+     margin: 10px;
+}
+nav {
+    color: rgb(145, 137, 137);
+    background-color: rgb(110, 110, 133);
+    padding: 5px;
+
+}
+nav > a{
+    color: rgb(216, 203, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main{
+    background-color: rgb(249, 250, 252);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+article{
+    background-color: aliceblue;
+}
+article > aside {
+    background-color: rgb(191, 206, 206);
+}
+footer {
+    color: aliceblue;
+    background-color: rgb(7, 7, 7);
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+    
+}
+footer > p{
+    margin: 0px;
+}
+div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-radius: 50%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav><a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> <a href="">Esportes</a> 
+                <a href="">Politica</a> 
+                <a href="">Tecnologia</a></p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi at cum enim maxime possimus eum optio nobis amet mollitia natus voluptatem provident aliquid, minus laudantium assumenda unde totam porro.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo ......</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
